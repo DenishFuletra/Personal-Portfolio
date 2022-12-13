@@ -31,3 +31,18 @@
 .container-li{
     list-style-type: disc;
 }
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 780px) {
+    #container{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+}
+#container-img{
+    width: fit-content;
+}
+}
