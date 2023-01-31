@@ -3,6 +3,7 @@ import bewkoof from "../assets/portfolio/bewkoof.png";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import shop from "../assets/portfolio/shop.png";
+import zostel from "../assets/portfolio/zostel.png";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import "../components/Portfolio.css";
@@ -15,12 +16,12 @@ const Portfolio = () => {
       live: "https://bewkoofclone.netlify.app/",
       code: "https://github.com/DenishFuletra/ProjectBewkoof",
       title: "BEWKOOF.COM CLONE",
-      description:"Bewakoof is India’s largest Casual Wear and Lifestyle Brand and E-commerce platform.",
-      techstack:"HTML|CSS|JavaScript",
+      description: "Bewakoof is India’s largest Casual Wear and Lifestyle Brand and E-commerce platform.",
+      techstack: "HTML|CSS|JavaScript",
       members: "A collaborative project built by a team of 4 web developers in 6 Days",
-      feature1:"User can Sign in & Sign up",
-      feature2:"Category-wise page listing & Product filtration and searching",
-      feature3:"Add to cart & Multiple types of payment options",
+      feature1: "User can Sign in & Sign up",
+      feature2: "Category-wise page listing & Product filtration and searching",
+      feature3: "Add to cart & Multiple types of payment options",
     },
     {
       id: 2,
@@ -28,12 +29,25 @@ const Portfolio = () => {
       live: "https://shop-clone-site.netlify.app/index.html",
       code: "https://github.com/kajalyadavgithub/Shop.com-clone",
       title: "SHOP.COM CLONE",
-      description:"SHOP.COM Marketplace offers great deals on clothes, beauty, health and nutrition, shoes, electronics, and more from over 1500 stores with one easy checkout.",
-      techstack:"HTML|CSS|JavaScript",
+      description: "SHOP.COM Marketplace offers great deals on clothes, beauty, health and nutrition, shoes, electronics, and more from over 1500 stores with one easy checkout.",
+      techstack: "HTML|CSS|JavaScript",
       members: "A collaborative project built by a team of 4 web developers in 6 Days",
-      feature1:"User can Sign in & Sign up",
-      feature2:"Category-wise page listing & Product filtration",
-      feature3:"Add to cart & Multiple types of payment options",
+      feature1: "User can Sign in & Sign up",
+      feature2: "Category-wise page listing & Product filtration",
+      feature3: "Add to cart & Multiple types of payment options",
+    },
+    {
+      id: 3,
+      src: zostel,
+      live: "https://zostel.vercel.app/",
+      code: "https://github.com/DenishFuletra/zostel-clone",
+      title: "ZOSTEL CLONE",
+      description: "Zostel is the world’s largest backpacker hostel chain. Stay with us at 60+ destinations across India and Nepal,exploring remote locations, remote parts of famous locations.",
+      techstack: "HTML|CSS|React|ChakraUI",
+      members: "A collaborative project built by a team of 4 web developers in 6 Days",
+      feature1: "User can Sign in & Sign up",
+      feature2: "Category-wise page listing & Product filtration",
+      feature3: "Add to cart & Multiple types of payment options",
     }
   ];
 
@@ -51,7 +65,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0" id="mainContainer">
-          {portfolios.map(({ id, src, live, code,title,description,feature1,feature2,feature3}) => (
+          {portfolios.map(({ id, src, live, code, title, description, feature1, feature2, feature3 }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg" id="container">
               <img
                 src={src}
@@ -68,15 +82,15 @@ const Portfolio = () => {
                   <li className="container-li">{feature3}</li>
                 </ul>
                 <div id="container-button">
-                <a href={live} target="blank">
-                  <button className="w-10  py-3 m-4 duration-200 text-center hover:scale-105 hover:border-b-4 border-indigo-500">
-                    Live
-                  </button></a>
-                <a href={code} target="blank">
-                  <button className="w-1/2 px-0 py-3 m-4 duration-200 hover:scale-105 hover:border-b-4 border-indigo-500">
-                    Code
-                  </button>
-                </a>
+                  <a href={live} target="blank">
+                    <button className="w-10  py-3 m-4 duration-200 text-center hover:scale-105 hover:border-b-4 border-indigo-500">
+                      Live
+                    </button></a>
+                  <a href={code} target="blank">
+                    <button className="w-1/2 px-0 py-3 m-4 duration-200 hover:scale-105 hover:border-b-4 border-indigo-500">
+                      Code
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

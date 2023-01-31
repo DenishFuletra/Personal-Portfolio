@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import {AiTwotonePhone} from "react-icons/ai";
+import { AiTwotonePhone } from "react-icons/ai";
 import "../components/SocialLinks.css";
 
 const SocialLinks = () => {
@@ -36,7 +36,7 @@ const SocialLinks = () => {
       href: "mailto:fuletradenish@gmail.com",
     },
     {
-      id: 6,
+      id: 4,
       child: (
         <>
           7383243000 <AiTwotonePhone size={30} />
@@ -45,20 +45,20 @@ const SocialLinks = () => {
       href: "tel:+7383243000",
     },
     {
-      id: 4,
+      id: 5,
       child: (
         <>
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/DenishFuletra-Resume.pdf",
+      href: "https://drive.google.com/file/d/1r-IL_oyyy4CiMvRpHnSfBxChaMjRhXt1/view?usp=sharing",
       style: "rounded-br-md",
       download: true,
     },
   ];
 
   return (
-    <div   className="hidden lg:flex flex-col top-[35%] left-[0%] fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-[0%] fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li

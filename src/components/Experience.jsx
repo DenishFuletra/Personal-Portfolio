@@ -12,6 +12,7 @@ import java from "../assets/java.png";
 import redux from "../assets/redux.png";
 import bootstrap from "../assets/bootstrap.png";
 import express from "../assets/express.png";
+import mongodb from "../assets/mngodb.jpeg"
 
 const Experience = () => {
   const techs = [
@@ -40,40 +41,46 @@ const Experience = () => {
       style: "shadow-gray-400",
     },
     {
-      id: 4,
+      id: 5,
       src: react,
       title: "React",
       style: "shadow-blue-600",
     },
     {
-      id: 4,
+      id: 6,
       src: redux,
       title: "Redux",
       style: "shadow-purple-600",
     },
     {
-      id: 4,
+      id: 7,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-purple-600",
     },
     
     {
-      id: 6,
+      id: 8,
       src: node,
       title: "Node JS",
       style: "shadow-green-400",
     },
     
     {
-      id: 6,
+      id: 9,
       src: express,
       title: "Express JS",
       style: "shadow-green-400",
     },
     
     {
-      id: 8,
+      id: 10,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-green-400",
+    },
+    {
+      id: 11,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
