@@ -119,13 +119,18 @@ const Contact = () => {
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
+            <input style={{marginTop:"-0px"}}
+              type="text"
+              name="mobile"
+              placeholder="Enter your phone number"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
             <textarea
               name="message"
               placeholder="Enter your message"
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
-
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
               Let's talk
             </button>
