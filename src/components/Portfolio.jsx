@@ -17,7 +17,7 @@ const Portfolio = () => {
       code: "https://github.com/DenishFuletra/ProjectBewkoof",
       title: "BEWKOOF.COM CLONE",
       description: "Bewakoof is India’s largest Casual Wear and Lifestyle Brand and E-commerce platform.",
-      techstack: "HTML|CSS|JavaScript",
+      techstack : "HTML | CSS | JavaScript",
       members: "A collaborative project built by a team of 4 web developers in 6 Days",
       feature1: "User can Sign in & Sign up",
       feature2: "Category-wise page listing & Product filtration and searching",
@@ -30,7 +30,7 @@ const Portfolio = () => {
       code: "https://github.com/kajalyadavgithub/Shop.com-clone",
       title: "SHOP.COM CLONE",
       description: "SHOP.COM Marketplace offers great deals on clothes, beauty, health and nutrition, shoes, electronics, and more from over 1500 stores with one easy checkout.",
-      techstack: "HTML|CSS|JavaScript",
+      techstack : "HTML | CSS | JavaScript",
       members: "A collaborative project built by a team of 4 web developers in 6 Days",
       feature1: "User can Sign in & Sign up",
       feature2: "Category-wise page listing & Product filtration",
@@ -43,7 +43,7 @@ const Portfolio = () => {
       code: "https://github.com/DenishFuletra/zostel-clone",
       title: "ZOSTEL CLONE",
       description: "Zostel is the world’s largest backpacker hostel chain. Stay with us at 60+ destinations across India and Nepal,exploring remote locations, remote parts of famous locations.",
-      techstack: "HTML|CSS|React|ChakraUI",
+      techstack : "HTML | CSS | React | ChakraUI",
       members: "A collaborative project built by a team of 4 web developers in 6 Days",
       feature1: "User can Sign in & Sign up",
       feature2: "Category-wise page listing & Product filtration",
@@ -65,7 +65,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0" id="mainContainer">
-          {portfolios.map(({ id, src, live, code, title, description, feature1, feature2, feature3 }) => (
+          {portfolios.map(({ id, src, live, code, title, description,techstack, feature1, feature2, feature3 }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg" id="container">
               <img
                 src={src}
@@ -76,6 +76,7 @@ const Portfolio = () => {
               <div id="container-profile">
                 <h1>{title}</h1>
                 <p>{description}</p>
+                <p>Tech stacks : {techstack}</p>
                 <ul> Feature
                   <li className="container-li">{feature1}</li>
                   <li className="container-li">{feature2}</li>
