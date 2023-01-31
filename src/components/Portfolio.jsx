@@ -76,7 +76,7 @@ const Portfolio = () => {
               <div id="container-profile">
                 <h1>{title}</h1>
                 <p>{description}</p>
-                <p>Tech stacks : {techstack}</p>
+                <p>Tech stack : {techstack}</p>
                 <ul> Feature
                   <li className="container-li">{feature1}</li>
                   <li className="container-li">{feature2}</li>
