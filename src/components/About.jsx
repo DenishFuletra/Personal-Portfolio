@@ -14,15 +14,22 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        Hi, I'm Denish Fuletra an aspiring and determined Full Stack Web Developer, curious to explore different industry-standard tech stacks and environments. Skilled in the MERN stack and willing to start a career with an organization that provides an opportunity to improve skills and knowledge gained as well as to grow along with the organization’s goal.
-
-
+          Hi, I'm Denish Fuletra an aspiring and determined Full Stack Web
+          Developer, curious to explore different industry-standard tech stacks
+          and environments. Skilled in the MERN stack and willing to start a
+          career with an organization that provides an opportunity to improve
+          skills and knowledge gained as well as to grow along with the
+          organization’s goal.
         </p>
 
         <br />
 
         <p className="text-xl">
-        My interest in web development started few years  back when I was trying to change the message sender name using inspect element on the web 😃, that taught me a lot about HTML & CSS.
+          My interest in web development started few years back when the
+          digitalization started, most of the CAD and management software is
+          started their services on web cloud, so I got the curiosity to know
+          how these works and then my Full stack web development journey started
+          from Masai School.
         </p>
       </div>
     </div>
